@@ -1,0 +1,11 @@
+C:\Users\twfx7\Workspaces\ai-projects\ai-agents\agent-harness-rs\target\debug\deps\notify-1ffbbbe83d5b7465.d: C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\lib.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\windows.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\event.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\null.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\poll.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\config.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\error.rs
+
+C:\Users\twfx7\Workspaces\ai-projects\ai-agents\agent-harness-rs\target\debug\deps\libnotify-1ffbbbe83d5b7465.rmeta: C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\lib.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\windows.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\event.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\null.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\poll.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\config.rs C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\error.rs
+
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\lib.rs:
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\windows.rs:
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\event.rs:
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\null.rs:
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\poll.rs:
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\config.rs:
+C:\Users\twfx7\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\notify-6.1.1\src\error.rs:

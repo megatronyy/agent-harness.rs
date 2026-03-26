@@ -1,0 +1,99 @@
+[package]
+name = "agent-harness"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75.0"
+authors = ["DeerFlow Contributors"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/bytedance/deer-flow"
+description = "High-performance AI agent harness framework"
+keywords = ["ai", "agent", "llm", "langchain"]
+categories = ["ai", "api-bindings"]
+
+[lib]
+name = "agent_harness"
+path = "src/lib.rs"
+
+[dependencies]
+# 核心依赖
+tokio = { version = "1.40", features = ["full"] }
+async-trait = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["raw_value"] }
+serde_yaml = "0.9"
+
+# 错误处理
+thiserror = "1.0"
+anyhow = "1.0"
+
+# 配置
+notify = "6.1"
+
+# HTTP 客户端
+reqwest = { version = "0.12", features = ["json", "stream"] }
+http = "1.1"
+
+# 类型系统
+strum = { version = "0.26", features = ["derive"] }
+strum_macros = "0.26"
+derive_more = { version = "1.0", features = ["display", "error", "from"] }
+
+# 日志
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# 时间处理
+chrono = { version = "0.4", features = ["serde"] }
+
+# UUID
+uuid = { version = "1.10", features = ["v4", "serde"] }
+
+# 正则表达式
+regex = "1.11"
+
+# 路径处理
+path-clean = "1.0"
+
+# 加密
+base64 = "0.22"
+
+# MIME type detection
+mime_guess = "2.0"
+
+# Futures
+futures = "0.3"
+
+# Pin project
+pin-project = "1.1"
+
+# Async streaming
+async-stream = "0.3"
+
+# Python bindings (optional)
+pyo3 = { version = "0.20", optional = true, features = ["extension-module"] }
+pyo3-asyncio = { version = "0.20", optional = true, features = ["tokio-runtime"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
+criterion = "0.5"
+wiremock = "0.6"
+
+[features]
+default = []
+
+# Model providers
+anthropic = []
+openai = []
+deepseek = []
+
+# Sandbox providers
+docker = []
+kubernetes = []
+
+# Python bindings (Phase 10)
+python = ["pyo3", "pyo3-asyncio"]
+
+# Uncomment when implementing benchmarks
+# [[bench]]
+# name = "middleware"
+# harness = false
